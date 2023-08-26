@@ -7,15 +7,15 @@ print(f"my name is {my_name} and my age is {my_age}")
 
 first_number = int(input("first number: "))
 second_number = int(input("second number: "))
-operator = input("operator(+-/*): ")
+operation = input("operation(+-/*): ")
 
-if operator == "+":
+if operation == "+":
     print(first_number + second_number)
-elif operator == "-":
+elif operation == "-":
     print(first_number - second_number)
-elif operator == "*":
+elif operation == "*":
     print(first_number * second_number)
-elif operator == "/":
+elif operation == "/":
     print(first_number / second_number)
 
 
